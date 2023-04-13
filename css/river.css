@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+.navthree {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbarblue {
+  background-color: #1968b3;
+}
+
+.navicons {
+  color: #ffff;
+  font-size: 1.8rem;
+}
+/* colors */
+.lightgray {
+  background-color: #c0c2c4;
+}
+/* Headings */
+
+H1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+
+.BigHeading {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+/* sections */
+.newsevents {
+  margin-top: 20px;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1350px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+.navcontainer {
+  padding: 0;
+}
+.centernav {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 1350px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+/* ============ small devices .end// ============ */
